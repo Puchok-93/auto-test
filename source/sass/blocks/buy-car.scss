@@ -1,0 +1,96 @@
+.buy-car {
+    background-image: url("../img/bg-gradient.png"), url('../img/main-bg.jpg'), ;
+    min-height: 648px;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.buy-car__info-block {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 155px 0 0 0;
+    margin: 0 0 0 8.5%;
+}
+
+.buy-car__title {
+    font-family: $RobotoCondensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 62px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin: 0;
+
+    order: 2;
+    padding: 0 0 35px 0;
+}
+
+.buy-car__subtitle {
+    font-family: $RobotoCondensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin: 0;
+
+    order: 1;
+    padding: 0 0 33px 0;
+}
+
+.buy-car__description {
+    font-family: $RobotoCondensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    margin: 0;
+
+    order: 3;
+}
+
+
+@media(max-width: 980px) {
+    .buy-car__info-block {
+        width: 80%;
+    
+        padding: 65px 0 0 0;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 768px) {
+    .buy-car__info-block {
+        width: 100%;
+    
+        padding: 45px 0 0 0;
+        margin: 0 auto;
+    }
+
+    .buy-car__title {
+        font-size: 32px;
+        line-height: 42px;
+        padding: 0 0 25px 0;
+    }
+
+    .buy-car__subtitle {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 0 0 20px 0;
+    }
+
+    .buy-car__description {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

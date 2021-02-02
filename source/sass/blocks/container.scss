@@ -1,0 +1,39 @@
+.container {
+    max-width: 1306px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    &--header {
+        display: flex;
+        align-items: center;
+    }
+
+    &--footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &--buy-car {
+        display: flex;
+    }
+
+    &--faq {
+        display: flex;
+    }
+}
+
+@media(max-width: 980px) {
+    .container {
+        &--buy-car {
+            flex-direction: column;
+        }
+    }
+}
+
+@media(max-width: 630px) {
+    .container {
+        &--footer {
+            flex-direction: column;
+        }
+    }
+  } 

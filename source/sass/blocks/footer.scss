@@ -1,0 +1,19 @@
+footer {
+    flex: 0 0 auto;
+    padding: 55px 0 20px 0;
+}
+
+.footer-logo {
+    margin: -10px 0 0 27px;
+}
+
+@media(max-width: 630px) {
+    footer {
+        padding: 25px 0 0 0;
+    }
+
+    .footer-logo {
+        margin: 0 auto;
+        order: 1;
+    }
+  } 

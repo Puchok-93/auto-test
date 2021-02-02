@@ -1,0 +1,42 @@
+.copyright__politic {
+    font-family: $Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: underline;
+
+    color: #828282;
+}
+
+.copyright__copyright {
+    font-family: $Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #828282;
+    margin: 16px 0 0 0;
+}
+
+.copyright__image {
+    display: block;
+    margin: 19px 0 0 0;
+}
+
+@media(max-width: 630px) {
+    .copyright {
+        width: 100%;
+        order: 3;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 20px 0 0 0;
+    }
+
+    .copyright__copyright,
+    .copyright__image {
+        margin: 0;
+    }
+  } 
